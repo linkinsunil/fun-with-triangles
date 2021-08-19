@@ -12,5 +12,5 @@ function productOfBaseAndHeight(a,b){
 function calculateAreaOfTriangle() {
     const product = productOfBaseAndHeight(Number(inputs[0].value), Number(inputs[1].value));
     const areaOfTriangle = product / 2;
-    message.innerText = `Area of Triangle is ${areaOfTriangle} cm²`;
+    message.innerText = `Area of Triangle is ${areaOfTriangle.toFixed(2)} cm²`;
 }
